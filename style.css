@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  width: 1000px;
+  position: relative;
+}
+
+.fox-img {
+  position: absolute;
+  top: 5px;
+  left: 450px;
+}
+
+.text {
+  color: #fff;
+  font-size: 67px;
+  line-height: 116px;
+  background-color: black;
+}
+
+.btn {
+  color: #fff;
+  font-size: 32px;
+  padding: 10px 40px;
+  margin-top: 100px;
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+}
